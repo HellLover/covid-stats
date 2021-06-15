@@ -3,7 +3,7 @@
 
 # Examples
 ```js
-const { Corona } = require("covid-stats");
+const { Corona } = require("@helllover/covid-stats");
 
 // Getting global COIVD-19 stats
 Corona.getGlobalStats()
