@@ -1,0 +1,32 @@
+{
+  "name": "covid-stats",
+  "version": "1.0.0",
+  "description": "A simple module to get information about COVID-19",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "pretest": "npm run build",
+    "test": "node ./tests/app.test.js",
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "corona",
+    "covid",
+    "covid-stats",
+    "corona-stats",
+    "typescript"
+  ],
+  "author": "HellLover",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.2.0"
+  }
+}
