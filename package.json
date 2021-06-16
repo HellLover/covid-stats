@@ -1,5 +1,5 @@
 {
-  "name": "covid-stats",
+  "name": "@helllover/covid-stats",
   "version": "1.0.0",
   "description": "A simple module to get information about COVID-19",
   "main": "./lib/cjs/index.js",
