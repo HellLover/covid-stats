@@ -1,5 +1,5 @@
-# corona-stats
-`corona-stats` is a simple module to get information about COVID-19. You can get information about global covid stats, about the specified country and also fetch the country flag.
+# covid-stats
+`covid-stats` is a simple module to get information about COVID-19. You can get information about global covid stats, about the specified country and also fetch the country flag.
 
 # Examples
 ```js
